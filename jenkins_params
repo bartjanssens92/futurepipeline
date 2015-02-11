@@ -1,0 +1,5 @@
+PACKAGE_NAME=testing
+PACKAGE_VERSION=1.1
+PACKAGE_PREFIX=/var/vhosts/testing
+PACKAGE_DESCRIPTION='A package build and deployed to test the new pipelines'
+DRUSH_COMMANDS='pwd; ls; whoami'
