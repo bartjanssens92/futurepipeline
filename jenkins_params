@@ -4,4 +4,6 @@ PACKAGE_PREFIX=/var/vhosts/testing
 PACKAGE_DESCRIPTION=A package build and deployed to test the new pipelines
 PACKAGE_REPOSITORY=someRepo
 DEPLOY_NODE_INFRADEV=somenode.somewhere.eu
-DRUSH_COMMANDS="pwd; ls; whoami"
+DRUSH_COMMANDS[0]=pwd
+DRUSH_COMMANDS[1]=ls
+DRUSH_COMMANDS[2]=whoami
