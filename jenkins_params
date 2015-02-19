@@ -1,7 +1,9 @@
-PACKAGE_NAME=testing
-PACKAGE_VERSION=1.1
-PACKAGE_PREFIX=/var/vhosts/testing
+PACKAGE_NAME="testing"
+PACKAGE_VERSION="1.1"
+PACKAGE_MAINTAINER="Jenkins"
+PACKAGE_VERDOR="Inuits"
+PACKAGE_PREFIX="/var/vhosts/testing"
 PACKAGE_DESCRIPTION="A package build and deployed to test the new pipelines"
-PACKAGE_REPOSITORY=someRepo
-DEPLOY_NODE_INFRADEV=somenode.somewhere.eu
+PACKAGE_REPOSITORY="someRepo"
+DEPLOY_NODE_INFRADEV="somenode.somewhere.eu"
 DRUSH_COMMANDS="pwd; ls; whoami"
